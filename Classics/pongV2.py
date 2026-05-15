@@ -85,7 +85,7 @@ def paddle_collision_logic():
                 
         
     if(x_pos_ball>=560):
-        print(y_pos_ball, y_pos_player, y_pos_player+100)
+        # print(y_pos_ball, y_pos_player, y_pos_player+100)
         if(y_pos_ball>=y_pos_player and y_pos_ball<=y_pos_player+100):
             
             if(x>0):# ball moving right

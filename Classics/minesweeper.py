@@ -135,13 +135,7 @@ def flood_fill(col_f,row_f):# flood if the clicked cell is empty
                     flood_fill(new_col,new_row)
                 elif(grid_content[new_row][new_col]["number"]!=0):
                     grid_content[new_row][new_col]["revealed"] = True
-                    # x1=new_col * 40
-                    # y1=new_row * 40
-                    # x2=x1 + 40
-                    # y2=y1 + 40
-                    # canvas.create_rectangle(x1,y1,x2,y2,fill="blue") 
-
-
+                  
 fills_mines()
 calc_neighbor()
 game_over=False
